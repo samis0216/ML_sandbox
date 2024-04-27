@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Entry</title>
+    <style>
+      /* Write your CSS here */
+      * {
+        min-width: 96%;
+        margin: 0 2% 0 2%;
+        }
+        select {
+            background-color: white;
+            color: black;
+        }
+        #negative {
+           background-color: green;
+           color: white; 
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Complete your form element -->
+    <form>
+      <label for="name">Name</label>
+      <input id="name" placeHolder='Write your name here...'>
+      <label for="opinion">Opinion</label>
+      <select id="opinion">
+        <option value='Positive'>Positive</option>
+        <option value='Neutral'>Neutral</option>
+        <option value='Negative' id="negative">Negative</option>
+      </select>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
